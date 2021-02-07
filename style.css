@@ -1,0 +1,32 @@
+
+.form-control:focus{
+    border-color: rgb(240, 12, 12);
+    box-shadow: 0 0 0 .10rem gray;
+}
+
+#search-result {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+
+}
+
+h2, h3 {
+    color: rgb(48, 209, 88);
+    font-weight: bold;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.mealName {
+    text-align: center;
+}
+
+.form-check-input:checked {
+    background-color: rgb(48, 209, 88);
+    border-color: rgb(48, 209, 88);
+}
